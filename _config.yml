@@ -1,0 +1,13 @@
+# Site settings
+title: Matt Tytel
+email: matthewtytel@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Matt Tytel - personal website
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://tytel.org" # the base hostname & protocol for your site
+twitter_username: matttytel
+github_username:  mtytel
+vimeo_username:   tytel
+
+# Build settings
+markdown: kramdown
