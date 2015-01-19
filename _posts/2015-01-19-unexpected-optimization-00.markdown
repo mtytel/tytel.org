@@ -17,9 +17,9 @@ double one_multiply = from + t * (to - from);  // 1 multiply and 2 adds
 double two_multiply = t * to + (1 - t) * from; // 2 multiplies and 2 adds
 {% endhighlight %}
 
-To uglier solutions like embedding assembly instructions in C++. I'm not a C++
-optimization expert yet, so some of these things may be more obvious than
-others.
+Or could be uglier solutions like embedding assembly instructions in C++.
+I'm not a C++ optimization expert yet, so some of these things may be more
+obvious than others.
 
 This first unexpected optimization concerns accessing values from std::vector.
 Consider these two methods of element access:
@@ -34,8 +34,8 @@ There is a significant different between the two: at() does boundary checking
 while operator[] does not. Now why would I use at() instead of operator[] in
 the first place? The way mopo sets up polyphony is that all the module
 instances in each voice share a list of input pointers. So every Filter
-instance has a pointer to a std::vector. Using ->at() on a pointer to
-std::vector is much easier to read than using ->operator[] or dereferencing
+instance has a pointer to a std::vector. Using at() on a pointer to
+std::vector is much easier to read than using operator[] or dereferencing
 first.
 
 {% highlight c++ %}
