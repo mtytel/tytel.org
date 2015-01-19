@@ -30,13 +30,13 @@ double one = vect[0];
 double two = vect.at(0);
 {% endhighlight %}
 
-There is a significant different between the two: at() does boundary checking
+There is a significant difference between the two: at() does boundary checking
 while operator[] does not. Now why would I use at() instead of operator[] in
 the first place? The way mopo sets up polyphony is that all the module
-instances in each voice share a list of input pointers. So every Filter
-instance has a pointer to a std::vector. Using at() on a pointer to
-std::vector is much easier to read than using operator[] or dereferencing
-first.
+instances in each voice share a list of input pointers. For example, every
+Filter instance in each poice has a pointer to the same std::vector. Using at()
+on a pointer to std::vector is much easier to read than using operator[] or
+dereferencing first so I first chose the slower but prettier method.
 
 {% highlight c++ %}
 std::vector<double>* pvect = new std::vector<double>();
@@ -47,8 +47,8 @@ double fast1 = pvect->operator[](0); // fast ugly access 1
 double fast2 = (*pvect)[0];          // fast ugly access 2
 {% endhighlight %}
 
-Fortunately this is an easy thing to fix, and I got a significant 25% speed
-boost because of it.
+Fortunately switching from at() to operator[] an easy thing to fix, and I got a
+significant 25% speed boost because of it.
 
 [twytch]:      https://github.com/mtytel/twytch
 [mopo]:        https://github.com/mtytel/mopo
