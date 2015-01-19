@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Unexpected Optimization #0"
+title:  "Unexpected Optimization #0: at() vs operator[]"
 date:   2015-01-19 00:30:00
 categories: blog devblog twytch optimization
 permalink: /blog/:year/:month/:day/:title/
