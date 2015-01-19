@@ -26,6 +26,7 @@
 .site-nav {
     float: right;
     line-height: 64px;
+    z-index:1;
 
     .menu-icon {
         display: none;
@@ -121,15 +122,15 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-    width:         calc(30% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
     float:right;
     text-align:right;
-    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-    width:         calc(30% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
 }
 
 
@@ -214,7 +215,7 @@
  * Browse Cells
  */
 .browse {
-  overflow:auto;
+  overflow:hidden;
   font-size:14px;
 }
 
@@ -239,7 +240,11 @@
   margin-right:5px;
   height:140px;
   float:left;
-  position:relative;
+
+  @include media-query($on-palm) {
+    width:300px;
+    font-size:12px;
+  }
 }
 
 .browse .last {
@@ -273,4 +278,26 @@
   padding-right:5px;
   padding-left:10px;
   float:right;
+}
+
+.full-video {
+  display:inline-block;
+  position:relative;
+  width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+  width:         calc(100% - (#{$spacing-unit} / 2));
+}
+
+.iframe-container {
+  margin-top: 56%;
+  width:100%;
+}
+
+.full-video iframe {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width:100%;
+  height:100%;
 }
