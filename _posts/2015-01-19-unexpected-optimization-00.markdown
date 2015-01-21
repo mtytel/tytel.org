@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Unexpected Optimization #0: at() vs operator[]"
-date:   2015-01-19 00:30:00
+date:   2015-01-19 12:30:00
 categories: blog devblog twytch optimization
 permalink: /blog/:year/:month/:day/:title/
 ---
@@ -31,7 +31,11 @@ double two = vect.at(0);
 {% endhighlight %}
 
 There is a significant difference between the two: at() does boundary checking
-while operator[] does not. Now why would I use at() instead of operator[] in
+while operator[] does not. You don't normally notice this performance
+difference, but I was running it once per audio sample for every single
+component which totaled in the millions per second.
+
+Now why would I use at() instead of operator[] in
 the first place? The way mopo sets up polyphony is that all the module
 instances in each voice share a list of input pointers. For example, every
 Filter instance in each poice has a pointer to the same std::vector. Using at()
