@@ -236,8 +236,8 @@
   display: block;
   background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.3));
   box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+  -webkit-transition:all 0.1s;
   transition: all 0.1s ease;
-  -webkit-transition:all 0.5s;
   opacity:0;
 
   @include media-query($on-palm) {
