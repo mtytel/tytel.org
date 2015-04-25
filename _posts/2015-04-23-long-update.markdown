@@ -5,11 +5,12 @@ date:   2015-04-23 12:30:00
 categories: blog devblog twytch
 permalink: /blog/:year/:month/:day/:title/
 ---
-Whew, it's been a while and a lot has changed! I've decided to make Twytch
-a free and open source project releasing it under GNU. My new goal is to
-make a very accessible free synth that runs on most platforms. Because of this
-I've cut back a lot of the more experimental features like glitches in place
-of more established ones like unison and a good modulation system.
+Whew, it's been a while and a lot has changed! I've decided to make
+[Twytch][twytch] a free and open source project releasing it under GNU. My new
+goal is to make a very accessible free synth that runs on most platforms.
+Because of this I've cut back a lot of the more experimental features like
+glitches in place of more established ones like unison and a powerful
+modulation system.
 
 The new modulation system is heavily inspired by Bitwig Studio though I don't
 think they were the original creators of this type of system. I'll talk more
@@ -24,7 +25,7 @@ outdated, but when combined with a flat UI, it looks really fresh.
 Here are the UI screenshots in reverse chronological order:
 
 
-### **Material design attempt 1 and new colors:**
+### **Material design attempt 1 and new colors. Look at dem shadows:**
 ![Twytch Screenshot 4-23](/static/images/blog/2015-04-23-screenshot.png)
 
 
@@ -44,5 +45,4 @@ Here are the UI screenshots in reverse chronological order:
 ![Twytch Screenshot 1-18](/static/images/blog/2015-01-18-screenshot.png)
 
 [twytch]:           https://github.com/mtytel/twytch
-[mopo]:             https://github.com/mtytel/mopo
 [material-design]:  http://www.google.com/design/spec/material-design/
