@@ -217,6 +217,7 @@
   font-size:14px;
   margin-left: auto;
   margin-right: auto;
+  margin-top:70px;
 }
 
 .browse .video-cell {
@@ -289,13 +290,26 @@
  */
 
 .description {
-  overflow:auto;
+  overflow:visible;
 }
 
 .description img {
-  padding-right:5px;
-  padding-left:10px;
+  margin-right:5px;
+  margin-left:10px;
+  overflow:visible;
+  box-shadow: 0px 1px 3px #333;
   float:right;
+}
+
+.home img {
+  box-shadow: 0px 1px 3px #333;
+  overflow:visible;
+  border-radius:5px;
+}
+
+.full-video {
+  box-shadow: 0px 1px 3px #333;
+  overflow:visible;
 }
 
 .full-video {
