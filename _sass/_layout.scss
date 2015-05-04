@@ -217,7 +217,6 @@
   font-size:14px;
   margin-left: auto;
   margin-right: auto;
-  margin-top:70px;
 }
 
 .browse .video-cell {
@@ -332,7 +331,9 @@
  */
 
 .description {
-  overflow:visible;
+  overflow:auto;
+  padding-top:5px;
+  padding-bottom:5px;
 }
 
 .description img {
