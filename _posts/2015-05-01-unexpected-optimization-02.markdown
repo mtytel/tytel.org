@@ -68,7 +68,7 @@ for (int i = 0; i < samples; ++i) {
 
   // One bit shift is more efficient than a multiply and cast I believe.
   int index = phase >> shift;
-  output_buffer[i] = lookup
+  output_buffer[i] = lookup[index];
 }
 {% endhighlight %}
 
