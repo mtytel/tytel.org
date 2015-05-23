@@ -63,9 +63,8 @@ int phase = 0;
 int phase_diff = ...; // Usually we don't know what value this is.
 
 for (int i = 0; i < samples; ++i) {
+  // Automatially wraps :D
   phase += phase_diff;
-  if (phase >= 1.0)
-    phase -= 1.0;
 
   // One bit shift is more efficient than a multiply and cast I believe.
   int index = phase >> shift;
