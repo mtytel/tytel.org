@@ -1,0 +1,21 @@
+---
+layout: page
+title:  "Stickers!"
+date:   2015-06-01 12:30:00
+categories: blog devblog helm
+permalink: /blog/:year/:month/:day/:title/
+---
+I got some stickers printed of the new logo! If you PayPal me $5 at
+[matthewtytel@gmail.com](mailto:matthewtytel@gmail.com) and include your
+address I'll send you one :D
+
+![Helm Stickers](/static/images/blog/stickers.jpg)
+
+Since the synth is free this is a way of generating some (small) amount of
+monetary support.
+
+I got these die cut stickers through Sticker Mule. They make super high quality
+vinyl stickers that are water/sun/scratch resistant. They can even go through
+the dishwasher.
+
+Dimensions are about 3in x 3in.
