@@ -295,9 +295,8 @@
 }
 
 .helm-logo {
-  float:left;
-  margin-left:50px;
-  margin-right:50px;
+  display:inline-block;
+  margin:auto;
   box-shadow: 0px 0px 0px #000 !important;
 }
 
@@ -331,6 +330,7 @@
   background-size: cover;
   background-attachment: fixed;
   color:#2196F3;
+  text-align:center;
 }
 
 .home a {
@@ -346,11 +346,15 @@
 }
 
 .sticker-order {
-  margin:0;
   width:370px;
   padding-left:20px;
   padding-top:5px;
-  float:left;
+  display:inline-block;
+  vertical-align: top;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .sticker-order p {
@@ -364,11 +368,11 @@
 
 .sticker-description {
   width:160px;
-  display:inline;
   overflow:auto;
-  float:left;
+  display:inline-block;
   font-size:14px;
   margin-top:4px;
+  text-align:left;
 }
 
 .sticker-order img {
@@ -379,14 +383,20 @@
 
 #mc_embed_signup form {
   padding-left:0px !important;
-  float:left;
+  display:inline-block !important;
+  text-align:left;
 }
 
 #mc_embed_signup {
-  width:310px;
-  margin-top:10px;
-  margin-left:30px;
+  width:340px;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:auto;
+  margin-right:auto;
   padding-left:0px !important;
+  display:inline-block !important;
+  text-align:left;
+  vertical-align: top;
 }
 
 #mc_embed_signup_scroll {
@@ -409,7 +419,7 @@
   font-weight:100;
   color:#FFD740;
   width:370px;
-  margin-top:45px;
+  margin-top:0px;
   display:inline-block;
 }
 
@@ -442,7 +452,7 @@
   margin-left:10px;
   overflow:visible;
   box-shadow: 0px 0px 3px rgba(33,33,33,0.7);
-  float:right;
+  display:inline-block;
 }
 
 .home img {
@@ -458,24 +468,34 @@
   padding: 0.25rem 9999rem;
   background: #212121;
   overflow: auto;
+  text-align: center;
+  vertical-align: top;
 }
 
 .binary-description {
-  width:340px;
-  margin:20px;
+  max-width:340px;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:auto;
+  margin-right:auto;
   color:#ddd;
   font-size:14px;
-  float:left;
-  display:inline;
+  display:inline-block;
+  vertical-align: top;
+  text-align: left;
 }
 
 .free-software-description {
   width:340px;
-  margin:20px;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:auto;
+  margin-right:auto;
   color:#ddd;
   font-size:14px;
-  float:left;
-  display:inline;
+  display:inline-block;
+  vertical-align: top;
+  text-align: left;
 }
 
 .full-video {
