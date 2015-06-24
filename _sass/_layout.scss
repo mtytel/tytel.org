@@ -33,6 +33,7 @@
     }
 
     .page-link {
+        color:#fff !important;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -79,6 +80,7 @@
         }
 
         .page-link {
+            color: #ffab00 !important;
             display: block;
             padding: 5px 10px;
         }
