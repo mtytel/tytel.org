@@ -1,7 +1,7 @@
 $(document).ready(function initDownload() {
   var download_link = $("#download-link");
   if (navigator.appVersion.indexOf("Mac") != -1)
-    download_link.prop("href", "/static/dist/Helm.pkg");
+    download_link.prop("href", "/static/dist/Helm_v0_4_0.pkg");
   else if (navigator.appVersion.indexOf("Win") != -1) {
     if (navigator.oscpu.indexOf("64") != -1)
       download_link.prop("href", "/static/dist/Helm_64.msi");
