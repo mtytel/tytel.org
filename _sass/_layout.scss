@@ -131,7 +131,7 @@
         float:right;
         line-height: $base-line-height;
         margin-top:14px;
-        margin-right:60px;
+        margin-right:40px;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -369,12 +369,11 @@
 }
 
 .download-button {
-  max-width:100%;
+  width:100%;
   color:white;
   font-weight:thin;
-  font-size:30px;
+  font-size:26px;
   text-align:center;
-  width:100%;
   padding-top:15px;
   padding-bottom:15px;
   margin-top:10px;
@@ -408,9 +407,10 @@
 }
 
 .downloads {
+  min-width:290px;
   width:100%;
-  min-width:320px;
   float:left;
+  margin:auto;
   margin-top:15px;
   margin-bottom:15px;
 }
@@ -456,7 +456,7 @@
 
 .sticker-order {
   max-width:100%;
-  width:370px;
+  max-width:370px;
   display:inline-block;
   vertical-align: top;
   margin-top:20px;
@@ -475,7 +475,7 @@
 }
 
 .sticker-description {
-  width:45%;
+  max-width:45%;
   overflow:auto;
   display:inline-block;
   font-size:14px;
@@ -521,7 +521,7 @@
 #mc_embed_signup {
   vertical-align:top;
   max-width:100%;
-  width:340px;
+  max-width:340px;
   margin-top:20px;
   margin-bottom:20px;
   margin-left:auto;
@@ -552,7 +552,6 @@
   font-size:30px;
   font-weight:100;
   color:#FFD740;
-  width:370px;
   display:inline-block;
 }
 
@@ -632,7 +631,7 @@
 
 .free-software-description {
   max-width:100%;
-  width:340px;
+  max-width:340px;
   margin-top:20px;
   margin-bottom:20px;
   margin-left:auto;
