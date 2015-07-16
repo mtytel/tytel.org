@@ -483,6 +483,27 @@
   vertical-align:top;
 }
 
+.faq-title {
+  text-align:left;
+}
+
+.faq {
+  margin-top:15px;
+  margin-bottom:25px;
+  text-align: left !important;
+}
+
+.faq-question {
+  font-weight:bold !important;
+  color:#FFD740;
+}
+
+.faq-answer {
+  color:#2196F3;
+  margin-left:10px;
+  margin-bottom:10px;
+}
+
 .sticker-order img {
   float:right;
   width:50%;
@@ -539,6 +560,12 @@
   display:inline-block;
 }
 
+.faq-title .catch-phrase {
+  padding-left:30px;
+  font-weight:bold;
+  font-size:40px !important;
+}
+
 .screenshot-section {
   margin: 50px -70px;
 }
@@ -581,7 +608,7 @@
 .division-bar {
   box-shadow: 0px 0px 5px rgba(0,0,0,1.0);
   margin: 0 -9999rem;
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 0.25rem 9999rem;
   background: #212121;
   overflow: auto;
