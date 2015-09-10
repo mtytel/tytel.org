@@ -33,15 +33,15 @@ $(document).ready(function initDownload() {
   else if (navigator.appVersion.indexOf("Win") != -1) {
     if (navigator.oscpu) {
       if (navigator.oscpu.indexOf("64") != -1)
-        download_link.prop("href", "/static/dist/Helm_64bit_v0_4_1.msi");
+        download_link.prop("href", "/static/dist/Helm_64bit_v0_5_0.msi");
       else
-        download_link.prop("href", "/static/dist/Helm_32bit_v0_4_1.msi");
+        download_link.prop("href", "/static/dist/Helm_32bit_v0_5_0.msi");
     }
     else {
       if (navigator.platform.indexOf("64") != -1)
-        download_link.prop("href", "/static/dist/Helm_64bit_v0_4_1.msi");
+        download_link.prop("href", "/static/dist/Helm_64bit_v0_5_0.msi");
       else
-        download_link.prop("href", "/static/dist/Helm_32bit_v0_4_1.msi");
+        download_link.prop("href", "/static/dist/Helm_32bit_v0_5_0.msi");
     }
   }
   else if (navigator.appVersion.indexOf("X11") != -1 ||
