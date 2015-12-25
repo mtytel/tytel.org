@@ -29,7 +29,7 @@
 $(document).ready(function initDownload() {
   var download_link = $("#download-link");
   if (navigator.appVersion.indexOf("Mac") != -1)
-    download_link.prop("href", "/static/dist/Helm_v0_5_0.pkg");
+    download_link.prop("href", "/static/dist/Helm_v0_6_0.pkg");
   else if (navigator.appVersion.indexOf("Win") != -1) {
     if (navigator.oscpu) {
       if (navigator.oscpu.indexOf("64") != -1)
@@ -48,15 +48,15 @@ $(document).ready(function initDownload() {
            navigator.appVersion.indexOf("Linux") != -1) {
     if (navigator.oscpu) {
       if (navigator.oscpu.indexOf("64") != -1)
-        download_link.prop("href", "/static/dist/helm_0.5.0-778~ubuntu14.04.1_amd64.deb");
+        download_link.prop("href", "/static/dist/helm_0.6.0-863~ubuntu14.04.1_amd64.deb");
       else
-        download_link.prop("href", "/static/dist/helm_0.5.0-778~ubuntu14.04.1_i386.deb");
+        download_link.prop("href", "/static/dist/helm_0.6.0-863~ubuntu14.04.1_i386.deb");
     }
     else {
       if (navigator.platform.indexOf("64") != -1)
-        download_link.prop("href", "/static/dist/helm_0.5.0-778~ubuntu14.04.1_amd64.deb");
+        download_link.prop("href", "/static/dist/helm_0.6.0-863~ubuntu14.04.1_amd64.deb");
       else
-        download_link.prop("href", "/static/dist/helm_0.5.0-778~ubuntu14.04.1_i386.deb");
+        download_link.prop("href", "/static/dist/helm_0.6.0-863~ubuntu14.04.1_i386.deb");
     }
   }
 });
