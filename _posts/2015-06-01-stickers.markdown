@@ -6,8 +6,8 @@ categories: blog devblog helm
 permalink: /blog/:year/:month/:day/:title/
 ---
 I got some stickers printed of the new logo! If you PayPal me $5 at
-[matthewtytel@gmail.com](mailto:matthewtytel@gmail.com) and include your
-address I'll send you one :D
+[matthewtytel@gmail.com](mailto:matthewtytel@gmail.com) and mention the
+stickers and include your address I'll send you one :D
 
 ![Helm Stickers](/static/images/blog/stickers.jpg)
 
