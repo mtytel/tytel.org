@@ -605,6 +605,7 @@
   max-width:100%;
   max-width:370px;
   display:inline-block;
+  background-color:transparent;
   vertical-align: top;
   margin-top:20px;
   margin-bottom:20px;
@@ -624,10 +625,15 @@
 .sticker-description {
   max-width:45%;
   overflow:auto;
+  background-color:transparent;
   display:inline-block;
   font-size:14px;
   text-align:left;
   vertical-align:top;
+}
+
+.sticker-description form {
+  background-color:transparent;
 }
 
 .faq-title {
@@ -653,6 +659,7 @@
 
 .sticker-form {
   width:100%;
+  background-color:transparent;
 }
 
 .sticker-order-img {
@@ -666,6 +673,7 @@
   padding:0;
   margin:0;
   color:#FFAB00 !important;
+  background-color:transparent;
   font-weight:300;
   text-align:left;
   overflow:visible;
@@ -748,14 +756,14 @@
 #thanks {
   margin-top:20px;
   font-size:26px;
-  font-weight:800;
+  font-weight:700;
   color:#2196F3;
 }
 
 #nothanks {
   margin-top:0px;
   font-size:32px;
-  font-weight:800;
+  font-weight:700;
   color:#2196F3;
 }
 
@@ -766,6 +774,10 @@
   font-weight:100;
   text-align:left;
   color:#ccd;
+}
+
+#auto-download-info form {
+  background-color:transparent;
 }
 
 .catch-phrase {
