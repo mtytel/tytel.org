@@ -177,6 +177,18 @@ pre {
 }
 
 
+/**
+ * Browse Wrapper
+ */
+.browse-wrapper {
+    max-width:100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right:0;
+    padding-left:0;
+    @extend %clearfix;
+}
+
 
 /**
  * Clearfix
