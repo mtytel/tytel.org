@@ -281,6 +281,10 @@
   overflow:hidden;
 }
 
+.browse .browse-text a {
+  color:#fff !important;
+}
+
 .browse .browse-text {
   display:inline-block;
   margin:0;
@@ -292,7 +296,6 @@
   right:0;
   top:0;
   width:320px;
-  color:#fff;
   text-align:left;
   font-size:20px;
   color:#fff !important;
