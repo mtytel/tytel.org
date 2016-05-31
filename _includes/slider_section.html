@@ -1,0 +1,28 @@
+<div id="slider-section">
+  <div class="donation-slider">
+    <div id="donation">
+    </div>
+  </div>
+
+  <form class="donation-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="matthewtytel@gmail.com">
+    <input type="hidden" name="lc" value="US">
+    <input type="hidden" name="item_name" value="Helm Synthesizer Download">
+    <input type="hidden" name="currency_code" value="USD">
+    <input type="hidden" name="button_subtype" value="services">
+    <input type="hidden" name="no_note" value="0">
+    <input type="hidden" name="cn" value="Add special instructions to the seller:">
+    <input type="hidden" name="no_shipping" value="1">
+    <input type="hidden" name="rm" value="1">
+    <input class="return-link" type="hidden" name="return" value="http://tytel.org/helm/processed/">
+    <input id="contribute-button" type="submit" value="Buy" border="0" name="submit" alt="Helm Purchase">
+    <a href="/helm/nopay">
+      <div id="nopay-button" alt="Helm No Pay">
+        <p>Nothing</p>
+      </div>
+    </a>
+    <div id="donation-info">Helm is worth </div>
+    <input id="donation-amount" name="amount" value="$5">
+  </form>
+</div>
