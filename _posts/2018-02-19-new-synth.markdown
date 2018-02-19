@@ -1,0 +1,20 @@
+---
+layout: page
+title:  "New Synth in the Works"
+date:   2018-02-19 12:30:00
+categories: blog devblog
+permalink: /blog/:year/:month/:day/:title/
+---
+
+I'm working on a new synth! The goal: create the most popular synthesizer in the world..
+Not sure if that's achievable, let alone measureable, but if I hit a million downloads I think
+I'll call it a success.
+
+So you want to hear about features. You'll have to stay tuned for more blog posts then! I can tell
+you now that there are some analog modelled filters (ZDF, WTF? BBQ), interesting modulation
+capabilities and a very visual and animated UI (with low CPU usage).
+
+And for those wondering, this new synth will be open-source and pay-what-you-want like just like
+[Helm][helm].
+
+[helm]:  http://tytel.org/helm
