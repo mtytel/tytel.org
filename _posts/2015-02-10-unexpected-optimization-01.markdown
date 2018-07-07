@@ -37,4 +37,4 @@ fesetenv(FE_DFL_DISABLE_SSE_DENORMS_ENV);
 
 [twytch]:      https://github.com/mtytel/twytch
 [dspfilters]:  https://github.com/vinniefalco/DSPFilters
-[denormal]:    http://en.wikipedia.org/wiki/Denormal_number
+[denormal]:    https://en.wikipedia.org/wiki/Denormal_number

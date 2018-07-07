@@ -45,5 +45,5 @@ insight on what looks good and what doesn't.
 
 [helm]:        https://github.com/mtytel/helm
 [mopo]:        https://github.com/mtytel/mopo
-[material-design]:  http://www.google.com/design/spec/material-design/
-[material-design-color]:  http://www.google.com/design/spec/style/color.html
+[material-design]:  https://www.google.com/design/spec/material-design/
+[material-design-color]:  https://www.google.com/design/spec/style/color.html

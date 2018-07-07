@@ -19,6 +19,6 @@ I started with the code from a past synthesizer I made called [cursynth][cursynt
 [twytch]:      https://github.com/mtytel/twytch
 [willy]:       http://willychyr.com/blog/
 [fract]:       http://fractgame.com/news
-[cursynth]:    http://www.gnu.org/software/cursynth/
-[juce]:        http://www.juce.com/
+[cursynth]:    https://www.gnu.org/software/cursynth/
+[juce]:        https://www.juce.com/
 [mopo]:        https://github.com/mtytel/mopo

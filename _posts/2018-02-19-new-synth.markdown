@@ -17,4 +17,4 @@ capabilities and a very visual and animated UI (with low CPU usage).
 And for those wondering, this new synth will be open-source and pay-what-you-want like just like
 [Helm][helm].
 
-[helm]:  http://tytel.org/helm
+[helm]:  https://tytel.org/helm

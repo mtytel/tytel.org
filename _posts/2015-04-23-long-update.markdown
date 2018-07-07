@@ -45,4 +45,4 @@ Here are the UI screenshots in reverse chronological order:
 ![Twytch Screenshot 1-18](/static/images/blog/2015-01-18-screenshot.png)
 
 [twytch]:           https://github.com/mtytel/twytch
-[material-design]:  http://www.google.com/design/spec/material-design/
+[material-design]:  https://www.google.com/design/spec/material-design/
